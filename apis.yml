@@ -1,7 +1,11 @@
 aid: rs-legacy
-url: https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.rs-legacy.com
+description: >-
+  RS Legacy Corporation is the post-bankruptcy entity of RadioShack, the consumer
+  electronics retailer that operated thousands of stores before its restructuring.
