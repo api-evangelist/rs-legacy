@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rsl": "https://www.radioshack.com/vocab#",
+
+    "ElectronicsProduct": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "ElectronicsRetailer": {
+      "@id": "schema:Corporation",
+      "@type": "@id"
+    },
+    "ConsumerElectronics": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "ElectronicComponent": {
+      "@id": "rsl:ElectronicComponent",
+      "@type": "@id"
+    },
+    "RetailStore": {
+      "@id": "schema:Store",
+      "@type": "@id"
+    },
+
+    "productName": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "sku": {
+      "@id": "schema:sku",
+      "@type": "xsd:string"
+    },
+    "brand": {
+      "@id": "schema:brand",
+      "@type": "@id"
+    },
+    "category": {
+      "@id": "schema:category",
+      "@type": "xsd:string"
+    },
+    "price": {
+      "@id": "schema:price",
+      "@type": "xsd:decimal"
+    },
+    "availability": {
+      "@id": "schema:availability",
+      "@type": "xsd:string"
+    },
+    "partNumber": {
+      "@id": "schema:mpn",
+      "@type": "xsd:string"
+    },
+    "storeType": {
+      "@id": "rsl:storeType",
+      "@type": "xsd:string"
+    },
+    "franchisee": {
+      "@id": "schema:subOrganization",
+      "@type": "@id"
+    },
+    "productDescription": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+    "specifications": {
+      "@id": "schema:additionalProperty",
+      "@type": "@id"
+    }
+  }
+}

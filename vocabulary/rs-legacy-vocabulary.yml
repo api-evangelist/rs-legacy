@@ -1,0 +1,81 @@
+title: RS Legacy Vocabulary
+description: >-
+  Domain vocabulary for RS Legacy Corporation (RadioShack), the post-bankruptcy
+  successor entity of the iconic consumer electronics retailer. Covers consumer
+  electronics, electronic components, retail operations, and franchise terms.
+version: '1.0'
+created: '2026-05-02'
+modified: '2026-05-02'
+
+categories:
+  - name: Consumer Electronics
+    description: Consumer electronics product categories sold by RadioShack
+    terms:
+      - name: consumer-electronics
+        definition: Electronic devices intended for everyday use by consumers (TVs, radios, phones, etc.)
+      - name: batteries
+        definition: Portable electrochemical cells and packs for powering devices
+      - name: cables-and-connectors
+        definition: Physical interconnects for audio, video, USB, HDMI, and power
+      - name: radio-scanners
+        definition: Receivers that scan across multiple radio frequencies to monitor communications
+      - name: walkie-talkies
+        definition: Portable two-way radio transceivers for short-range communication
+      - name: cb-radio
+        definition: Citizens Band radio equipment for short-distance two-way communication
+      - name: drones
+        definition: Consumer unmanned aerial vehicles (UAVs) for recreational use
+      - name: rc-vehicles
+        definition: Radio-controlled cars, trucks, boats, and aircraft
+
+  - name: Electronic Components
+    description: Electronic components and parts sold for DIY and hobbyist use
+    terms:
+      - name: resistors
+        definition: Electronic components that oppose the flow of electric current
+      - name: capacitors
+        definition: Components that store electrical energy in an electric field
+      - name: transistors
+        definition: Semiconductor devices for amplifying or switching electronic signals
+      - name: leds
+        definition: Light-emitting diodes for indicators and lighting
+      - name: breadboard
+        definition: Solderless prototyping board for building temporary electronic circuits
+      - name: solder
+        definition: Fusible metal alloy used to create permanent electrical connections
+      - name: multimeter
+        definition: Electronic instrument measuring voltage, current, and resistance
+      - name: oscilloscope
+        definition: Electronic instrument displaying voltage waveforms over time
+
+  - name: Retail Operations
+    description: Retail store and e-commerce terminology
+    terms:
+      - name: sku
+        definition: Stock Keeping Unit — unique identifier for a product in inventory
+      - name: franchise
+        definition: License agreement allowing a franchisee to operate under the RadioShack brand
+      - name: dealer-store
+        definition: Independent retailer authorized to sell RadioShack products
+      - name: online-store
+        definition: RadioShack's e-commerce website at radioshack.com
+      - name: in-store-pickup
+        definition: Ordering online and collecting at a physical store location
+      - name: trade-in
+        definition: Accepting used electronics as partial payment toward a new purchase
+      - name: protection-plan
+        definition: Extended warranty or service coverage plan sold with electronics
+
+  - name: Corporate History
+    description: Key corporate events in RadioShack's history
+    terms:
+      - name: rs-legacy
+        definition: RS Legacy Corporation — the post-bankruptcy successor entity of RadioShack Corporation
+      - name: chapter-11
+        definition: US Bankruptcy Code reorganization process used by RadioShack in 2015
+      - name: unicomer-group
+        definition: El Salvador-based franchisee that acquired the RadioShack brand and IP in 2023
+      - name: global-franchising-corporation
+        definition: GFC — Unicomer affiliate that holds RadioShack IP rights in approximately 70 countries
+      - name: radioshack-swap
+        definition: Unaffiliated DeFi cryptocurrency platform that adopted the RadioShack brand name

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/main/json-schema/rs-legacy-product-schema.json",
+  "title": "RS Legacy Electronics Product",
+  "description": "Schema for a RadioShack / RS Legacy consumer electronics or component product",
+  "type": "object",
+  "properties": {
+    "productId": {
+      "type": "string",
+      "description": "Unique product identifier"
+    },
+    "sku": {
+      "type": "string",
+      "description": "RadioShack Stock Keeping Unit number",
+      "examples": ["270-0325", "64-021"]
+    },
+    "productName": {
+      "type": "string",
+      "description": "Product display name"
+    },
+    "brand": {
+      "type": "string",
+      "description": "Product brand (RadioShack or third-party)",
+      "examples": ["RadioShack", "Archer", "Realistic"]
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary product category",
+      "enum": [
+        "batteries",
+        "cables-connectors",
+        "components",
+        "computers-tablets",
+        "drones-rc",
+        "home-audio",
+        "phones",
+        "power",
+        "radio-scanners",
+        "security",
+        "tools",
+        "two-way-radios",
+        "wearables"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Product subcategory"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description"
+    },
+    "partNumber": {
+      "type": "string",
+      "description": "Manufacturer part number"
+    },
+    "price": {
+      "type": "number",
+      "description": "Retail price in USD",
+      "minimum": 0
+    },
+    "availability": {
+      "type": "string",
+      "description": "Stock availability status",
+      "enum": ["in-stock", "out-of-stock", "discontinued", "limited"]
+    },
+    "specifications": {
+      "type": "object",
+      "description": "Technical specifications as key-value pairs",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "imageUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Product image URL"
+    },
+    "productUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Product page URL on radioshack.com"
+    }
+  },
+  "required": ["productName", "category", "availability"]
+}
