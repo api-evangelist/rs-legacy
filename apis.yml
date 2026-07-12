@@ -24,6 +24,10 @@ modified: '2026-05-02'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/rs-legacy-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/rs-legacy-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/radioshack
   - type: Website
@@ -34,6 +38,8 @@ common:
     url: https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/vocabulary/rs-legacy-vocabulary.yml
   - type: JSONLDContext
     url: https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld
+  - type: Blog
+    url: https://www.radioshack.com/blog
 
 maintainers:
   - FN: Kin Lane
