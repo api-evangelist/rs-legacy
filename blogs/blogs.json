@@ -1,0 +1,21 @@
+{
+  "repo": "rs-legacy",
+  "feeds": [
+    {
+      "source": "https://www.radioshack.com/blog",
+      "feed_url": "https://www.radioshack.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
+      "feed_url": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 8
+}
