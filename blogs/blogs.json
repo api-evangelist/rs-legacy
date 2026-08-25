@@ -6,18 +6,16 @@
       "feed_url": "https://www.radioshack.com/blog",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "error": "parse_failed"
+      "method": "none"
     },
     {
       "source": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
       "feed_url": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "error": "parse_failed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-08-15T12:11:08Z",
+  "fetched": "2026-08-22T20:20:02Z",
   "post_count": 8
 }
