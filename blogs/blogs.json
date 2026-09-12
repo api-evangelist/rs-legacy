@@ -2,23 +2,21 @@
   "repo": "rs-legacy",
   "feeds": [
     {
-      "source": "https://www.radioshack.com/blog",
-      "feed_url": "https://www.radioshack.com/blog",
-      "title": "",
-      "saved": 0,
-      "method": "none",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
-    },
-    {
       "source": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
       "feed_url": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://www.radioshack.com/blog",
+      "feed_url": "https://www.radioshack.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 8,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
