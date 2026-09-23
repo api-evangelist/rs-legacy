@@ -1,7 +1,9 @@
 ---
 title: RadioShack Trading Is Halted After News of Dispute Emerges
 url: https://www.nytimes.com/2014/12/03/business/radioshack-trading-is-halted-after-news-of-dispute-emerges.html
-date: '2026-05-25'
+published: '2014-12-03'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"RS Legacy" press release artificial intelligence'
 position: 1
 source: serpapi-google
