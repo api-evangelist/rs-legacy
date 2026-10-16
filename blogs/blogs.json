@@ -2,21 +2,21 @@
   "repo": "rs-legacy",
   "feeds": [
     {
-      "source": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
-      "feed_url": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
       "source": "https://www.radioshack.com/blog",
       "feed_url": "https://www.radioshack.com/blog",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
+      "feed_url": "https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/json-ld/rs-legacy-context.jsonld",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 8,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
