@@ -64,56 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RS Legacy Corporation is the post-bankruptcy successor entity of RadioShack Corporation, the iconic American consumer electronics retailer founded in 1921. RadioShack filed for Chapter 11 bankruptcy in 2015. The brand was subsequently acquired by Unicomer Group in 2023, which now operates RadioShack globally in approximately 70 countries. RadioShack continues to sell consumer electronics, components, batteries, cables, and accessories online at radioshack.com and through franchise locations. No public developer API is currently documented.
+RS Legacy Corporation is the post-bankruptcy successor entity of RadioShack Corporation, the iconic American consumer electronics retailer founded in 1921. RadioShack filed for Chapter 11 bankruptcy in 2015, with RS Legacy Corp assuming the remaining obligations. The RadioShack brand was subsequently acquired by Unicomer Group (El Salvador-based) in 2023, which now operates the brand globally in approximately 70 countries including the United States, Canada, Europe, and Latin America. RadioShack continues to sell consumer electronics, components, batteries, cables, and accessories online at radioshack.com and through franchise locations. No public developer API is currently documented.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/rs-legacy/refs/heads/main/apis.yml)
+**Areas:** Consumer Electronics · Retail · Electronics Components · RadioShack
 
-## Scope
+## RS Legacy on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for RS Legacy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rs-legacy/](https://apis.io/providers/rs-legacy/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Consumer Electronics, Retail, Electronics Components, RadioShack
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON Schema (1)
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-05-02
+The data models the API reads and writes.
 
-## APIs
+- [RS Legacy Electronics Product](https://apis.io/schemas/rs-legacy/rs-legacy-product/)
 
-No public developer APIs are currently documented for RS Legacy / RadioShack.
+#### JSON-LD (1)
 
-## Artifacts
+Linked-data contexts for the provider's vocabulary.
 
-### JSON Schema
+- [Rs Legacy Context](https://apis.io/jsonld/rs-legacy/rs-legacy-context/)
 
-| File | Description |
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [RS Legacy Vocabulary](https://apis.io/vocabularies/rs-legacy/rs-legacy-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RS Legacy — jsonschema rules](https://apis.io/rules/rs-legacy/rs-legacy-jsonschema-spectral-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rs Legacy Domain Security](https://apis.io/security/rs-legacy/rs-legacy-domain-security/)
+- [Rs Legacy Vulnerability Disclosure](https://apis.io/security/rs-legacy/rs-legacy-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.radioshack.com)
+- [Documentation](https://www.radioshack.com/help-center)
+- [Blog](https://www.radioshack.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 9.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [rs-legacy-product-schema.json](json-schema/rs-legacy-product-schema.json) | Consumer electronics and components product schema |
+| Discoverability | 39.3 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-### JSON-LD
+**Agent readiness 0.0** — human-only
 
-| File | Description |
+| Agent-readiness dimension | Result |
 |---|---|
-| [rs-legacy-context.jsonld](json-ld/rs-legacy-context.jsonld) | JSON-LD context mapping RadioShack retail vocabulary to schema.org |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-### Vocabulary
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
 
-| File | Description |
-|---|---|
-| [rs-legacy-vocabulary.yml](vocabulary/rs-legacy-vocabulary.yml) | RS Legacy domain terminology — consumer electronics, components, retail, corporate history |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rs-legacy/](https://apis.io/providers/rs-legacy/).
 
-## Resources
+## How this profile is made
 
-- **Website:** https://www.radioshack.com
-- **Help Center:** https://www.radioshack.com/help-center
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Maintainers
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RS Legacy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**FN:** Kin Lane
+## Open an issue
 
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rs-legacy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
